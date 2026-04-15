@@ -36,6 +36,7 @@ const designs = [
 
 
 
+getCards(designs);
 
 
 function getCards(cardsList){
@@ -56,12 +57,11 @@ cardContainer.innerHTML="";
 }
 
 
-getCards(designs);
 
 
 
 // Search functionality
-searchInput.addEventListener("k", () => {
+searchInput.addEventListener("keyup", () => {
     const value = searchInput.value.toLowerCase();
 
     const filtered = designs.filter(item =>

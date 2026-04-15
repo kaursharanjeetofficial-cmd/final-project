@@ -24,11 +24,19 @@
 
 </nav>
 
-    <!-- Banner Card -->
-  <div class="banner-card">
-    <img id="bannerImage" src="https://images.unsplash.com/photo-1619607146034-5a05296c8f9a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="banner" />
-    <div class="banner-title" id="bannerTitle"></div>
- </div>
+
+
+
+ <div class="banner-card">
+
+  <div class="slider" id="slider">
+    <!-- slides will be injected here -->
+  </div>
+
+  <button class="prev" onclick="changeSlide(-1)">❮</button>
+  <button class="next" onclick="changeSlide(1)">❯</button>
+
+</div>
 
   <div class="card">
     <h3>Quote of the day</h3>
@@ -36,6 +44,10 @@
      <p id="quoteAuthor"></p>
   </div>
 
+  <!-- Cards Grid -->
+<div class="card-container" id="cardContainer">
+
+</div>
 
 <footer class="footer">
   <div class="footer-container">
