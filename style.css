@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #FFF7F9;
+  color: #2E2E2E;
+}
+
+nav {
+  background: #F8C8DC;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2E2E2E;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #F4A6C1;
+}
+
+
+.navbar {
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.logo-icon {
+  font-size: 24px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* NAV LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffb6d9;
+  transform: scale(1.05);
+}
+
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: #F5E6E8;
+  padding: 20px;
+  margin: 15px auto;
+  width: 60%;
+  border-radius: 12px;
+}
+
+
+
+ /* FULL WIDTH BANNER */
+    .banner-card {
+      width: 100%;
+      height: 100vh; /* full screen height */
+      position: relative;
+      overflow: hidden;
+    }
+
+    .banner-card img {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    /* TITLE OVER IMAGE */
+    .banner-title {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      font-size: 32px;
+      font-weight: bold;
+      color: white;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+
+    .footer {
+  background: #F8C8DC;
+  color: #2E2E2E;
+  padding-top: 40px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-box {
+  max-width: 250px;
+  margin: 10px;
+}
+
+.footer-box h3,
+.footer-box h4 {
+  margin-bottom: 10px;
+}
+
+.footer-box a {
+  display: block;
+  text-decoration: none;
+  color: #2E2E2E;
+  margin: 5px 0;
+}
+
+.footer-box a:hover {
+  color: #F4A6C1;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background: #F4A6C1;
+  font-size: 14px;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain; /* keeps it clean */
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
