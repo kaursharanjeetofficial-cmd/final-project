@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
   background: #FFF7F9;
   color: #2E2E2E;
 }
@@ -39,22 +40,7 @@ nav a:hover {
   backdrop-filter: blur(10px);
 }
 
-/* LOGO */
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: white;
-}
 
-.logo-icon {
-  font-size: 24px;
-}
-
-.logo-text {
-  font-size: 20px;
-  font-weight: bold;
-}
 
 /* NAV LINKS */
 .nav-links {
@@ -168,21 +154,85 @@ nav a:hover {
 }
 
 
-
+/* Logo container */
 .logo {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* SK style */
+.sk {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    background: linear-gradient(45deg, #ff9a9e, #fbc2eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Nail Studio text */
+.studio {
+    font-size: 14px;
+    color: #F4A6C1;
+    letter-spacing: 1px;
+}
+
+/* Decorative line */
+.logo::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, gold, pink);
+    bottom: -5px;
+    left: 0;
+    border-radius: 5px;
+}
+
+
+/* Contact form */
+.contact_container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
+.contact-form{
   display: flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
 }
 
-.logo-img {
-  width: 2rem;
-  height: 2rem;
-  object-fit: contain; /* keeps it clean */
+
+.input-group{
+  margin-bottom: 15px;
 }
 
-.logo-text {
-  font-size: 18px;
-  font-weight: bold;
+
+.input-group label{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Button */
+button {
+  background: #ff69b4;
   color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
+
+button:hover {
+  background: #ff1493;
+}
+

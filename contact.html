@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SK Nail Studio - Contact</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo" id="logo">  
+    <span class="sk">SK</span>
+    <span class="studio">Nail Studio</span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="designs.html">Designs</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Contact Section -->
+<div class="contact_container">
+  <h2>Contact Us 💅</h2>
+
+  <form id="contactform" class="contact-form">
     
+    <div class="input-group">
+      <label>Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="input-group">
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="input-group">
+      <label>Phone No</label>
+      <input type="tel" id="phone" placeholder="Enter phone number" required>
+    </div>
+
+    <div class="input-group">
+      <label>Message</label>
+      <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+    </div>
+
+    <div class="input-group">
+      <label>Preferred Design</label>
+      <select id="design">
+        <option value="">Select Design</option>
+        <option value="simple">Simple</option>
+        <option value="bridal">Bridal</option>
+        <option value="gel">Gel Nails</option>
+      </select>
+    </div>
+
+    <button type="submit">Submit</button>
+
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>SK Nail Studio</h3>
+      <p>Beautiful nail designs for everyone. Get inspired and express your style.</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Contact</h4>
+      <p>Email: skbrar2025@gmail.com</p>
+      <p>Phone: +1 7886334008</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 SK Nail Studio. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="scripts/contact.js"></script>
+
 </body>
 </html>
