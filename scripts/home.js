@@ -2,32 +2,27 @@ const designs = [
     {
         name: "Bridal Design",
         category: "bridal",
-        image: "https://via.placeholder.com/150"
+        image: "https://images.unsplash.com/photo-1591926079847-8181980b0f09?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnJpZGFsJTIwbmFpbHN8ZW58MHx8MHx8fDA%3D"
     },
     {
         name: "Simple Design",
         category: "simple",
-        image: "https://via.placeholder.com/150"
+        image: "https://images.unsplash.com/photo-1612887390768-fb02affea7a6?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         name: "Gel Nails",
         category: "gel",
-        image: "https://via.placeholder.com/150"
-    },
-    {
-        name: "Glitter Nails",
-        category: "glitter",
-        image: "https://via.placeholder.com/150"
+        image: "https://images.unsplash.com/photo-1672405313394-93dff75eae32?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdlbCUyMG5haWxzfGVufDB8fDB8fHww"
     },
     {
         name: "French Tips",
         category: "french",
-        image: "https://via.placeholder.com/150"
+        image: "https://plus.unsplash.com/premium_photo-1770482534303-e0983e9302c5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJlbmNoJTIwdGlwcyUyMG5haWxzfGVufDB8fDB8fHww"
     },
     {
         name: "Party Nails",
         category: "party",
-        image: "https://via.placeholder.com/150"
+        image: "https://images.unsplash.com/photo-1772322586702-73125782bd99?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFydHklMjBuYWlsfGVufDB8fDB8fHww"
     }
 ];
 
@@ -152,12 +147,20 @@ cardContainer.innerHTML="";
         card.classList.add("card");
 
         card.innerHTML = `
+         <div class="card-img">
             <img src="${item.image}" alt="${item.name}">
-            <p>${item.name}</p>
+            <p>${item.name}</p> </div>
         `;
 
         cardContainer.appendChild(card);
     });
 }
+
+
+function goToContactPage() {
+  window.location.href = "contact.html";
+}
+
+
 
 

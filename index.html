@@ -17,7 +17,7 @@
 
   <!-- Nav Items -->
   <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html" class="active">Home</a></li>
     <li><a href="designs.html">Designs</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
@@ -32,10 +32,9 @@
   <div class="hero-text">
   <h1>SK Nail Studio</h1>
   <p>Elegant Nail Art for Every Occasion</p>
-  <button>Book Now</button>
+  <button onclick="goToContactPage()">Book Now</button>
 </div>
   <div class="slider" id="slider">
-    <!-- slides will be injected here -->
   </div>
 
   <button class="prev" onclick="changeSlide(-1)">❮</button>
@@ -43,7 +42,7 @@
 
 </div>
 
-  <div class="card">
+  <div class="quote-card ">
     <h3>Quote of the day</h3>
     <p id="quoteText" >Explore the latest nail art styles.</p>
      <p id="quoteAuthor"></p>

@@ -1,43 +1,9 @@
 const cardContainer = document.getElementById("cardContainer");
 const searchInput = document.getElementById("searchInput");
 
-const designs = [
-    {
-        name: "Bridal Design",
-        category: "bridal",
-        image: "https://via.placeholder.com/150"
-    },
-    {
-        name: "Simple Design",
-        category: "simple",
-        image: "https://via.placeholder.com/150"
-    },
-    {
-        name: "Gel Nails",
-        category: "gel",
-        image: "https://via.placeholder.com/150"
-    },
-    {
-        name: "Glitter Nails",
-        category: "glitter",
-        image: "https://via.placeholder.com/150"
-    },
-    {
-        name: "French Tips",
-        category: "french",
-        image: "https://via.placeholder.com/150"
-    },
-    {
-        name: "Party Nails",
-        category: "party",
-        image: "https://via.placeholder.com/150"
-    }
-];
-
-
-
-getCards(designs);
-
+let designs = [];
+  
+getDesigns()
 
 function getCards(cardsList) {
     cardContainer.innerHTML = "<p style='text-align:center;'>Loading...</p>";
@@ -93,3 +59,27 @@ searchInput.addEventListener("keyup", () => {
 
     getCards(filtered);
 });
+
+
+ async function getDesigns() {
+  
+
+ try {
+    const response = await fetch("https://raw.githubusercontent.com/kaursharanjeetofficial-cmd/final-project/main/cards.json", {
+      method: "GET"
+    });
+
+    const data = await response.json();
+    designs = data;
+    getCards(data);
+
+   
+
+   
+
+  } catch (error) {
+    document.getElementById("quoteText").innerText =
+      "Failed to load designs ";
+    console.error(error);
+  }
+}
