@@ -23,10 +23,21 @@
   </ul>
 
 </nav>
-
+<section class="designs-hero">
+  <h1>Nail Designs</h1>
+  <p>Explore our latest and trending nail styles 💅</p>
+</section>
   <!-- Search Bar -->
 <div class="search-container">
   <input type="text" id="searchInput" placeholder="Search nail designs...">
+</div>
+
+
+<div class="filter-buttons">
+  <button onclick="filterDesign('all')">All</button>
+  <button onclick="filterDesign('bridal')">Bridal</button>
+  <button onclick="filterDesign('simple')">Simple</button>
+  <button onclick="filterDesign('gel')">Gel</button>
 </div>
 
 <!-- Cards Grid -->
@@ -63,6 +74,8 @@
   </div>
 
 </div>
+
+<p id="noResults" style="display:none; text-align:center;">No designs found</p>
 
 
 <footer class="footer">

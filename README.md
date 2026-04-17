@@ -1,4 +1,4 @@
-## Project Pitch – RNail Artist App
+## Project Pitch – SK Nail Studio
 
 ## User Persona
 This app is for people who like nail art and want new design ideas. It also helps nail artists show their designs and work to others.

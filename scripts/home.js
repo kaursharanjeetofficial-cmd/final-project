@@ -58,7 +58,6 @@ const banners = [
 let index = 0;
 const slider = document.getElementById("slider");
 
-// 👉 render banners dynamically
 function renderBanners() {
   slider.innerHTML = "";
 
@@ -76,20 +75,18 @@ function renderBanners() {
   });
 }
 
-// 👉 get slides after render
 let slides = [];
 
 function updateSlides() {
   slides = document.querySelectorAll(".slide");
 }
 
-// 👉 show slide
 function showSlide(i) {
   slides.forEach(s => s.classList.remove("active"));
   slides[i].classList.add("active");
 }
 
-// 👉 next / prev
+// next and prev buttons
 function changeSlide(step) {
   index += step;
 
@@ -99,7 +96,7 @@ function changeSlide(step) {
   showSlide(index);
 }
 
-// 👉 auto slide
+
 setInterval(() => {
   changeSlide(1);
 }, 4000);
@@ -114,7 +111,7 @@ getQuoteOfTheDay()
 getCards(designs);
 
 
- // init
+ 
 renderBanners();
 updateSlides();
 showSlide(index);
