@@ -1,1 +1,77 @@
-
+[
+  {
+    "name": "Bridal Elegance",
+    "category": "bridal",
+    "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371"
+  },
+  {
+    "name": "Simple Nude Nails",
+    "category": "simple",
+    "image": "https://images.unsplash.com/photo-1610992015732-2449b0b0c3c8"
+  },
+  {
+    "name": "Gel Shine Nails",
+    "category": "gel",
+    "image": "https://images.unsplash.com/photo-1607779097040-26e80aa78e66"
+  },
+  {
+    "name": "Glitter Glam Nails",
+    "category": "glitter",
+    "image": "https://images.unsplash.com/photo-1612810436541-336d7c5a1e4c"
+  },
+  {
+    "name": "French Tips Classic",
+    "category": "french",
+    "image": "https://images.unsplash.com/photo-1610992087229-1a2b3c4d5e6f"
+  },
+  {
+    "name": "Party Neon Nails",
+    "category": "party",
+    "image": "https://images.unsplash.com/photo-1617038260897-41a1f14d7a4b"
+  },
+  {
+    "name": "Acrylic Pink Set",
+    "category": "acrylic",
+    "image": "https://images.unsplash.com/photo-1616683693504-3ea7e1c8b7a4"
+  },
+  {
+    "name": "Minimal Line Art Nails",
+    "category": "simple",
+    "image": "https://images.unsplash.com/photo-1610992021763-8b7c1a2d9f10"
+  },
+  {
+    "name": "Gold Luxury Nails",
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1617038220319-1f2a3b4c5d6e"
+  },
+  {
+    "name": "Matte Black Nails",
+    "category": "matte",
+    "image": "https://images.unsplash.com/photo-1616683693498-7c9a8b6d5e4f"
+  },
+  {
+    "name": "Floral Nail Art",
+    "category": "art",
+    "image": "https://images.unsplash.com/photo-1610992016123-9a8b7c6d5e4f"
+  },
+  {
+    "name": "Chrome Mirror Nails",
+    "category": "chrome",
+    "image": "https://images.unsplash.com/photo-1617038220172-4a5b6c7d8e9f"
+  },
+  {
+    "name": "Pastel Summer Nails",
+    "category": "summer",
+    "image": "https://images.unsplash.com/photo-1612810436545-2b3c4d5e6f70"
+  },
+  {
+    "name": "Wedding White Nails",
+    "category": "bridal",
+    "image": "https://images.unsplash.com/photo-1604654894609-7a8b9c0d1e2f"
+  },
+  {
+    "name": "Sparkle Party Set",
+    "category": "party",
+    "image": "https://images.unsplash.com/photo-1616683693510-5a6b7c8d9e0f"
+  }
+]
